@@ -1,0 +1,230 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 43px;
+    color: white;
+}
+
+p {
+    font-size: 17px;
+}
+
+.container {
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.top-banner {
+    color: white;
+    padding-left: 110px;
+    padding-top: 55px;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.text-1 {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 7px;
+
+}
+
+.fa-solid {
+    padding-left: 10px;
+}
+
+.options {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+.background {
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 10px;
+    padding: 30px 30px;
+    border-radius: 15px;
+}
+
+.blog-design :hover {
+    color: black;
+    background-color: blue;
+}
+
+.hov-text :hover {
+    color: black;
+    background-color: antiquewhite;
+}
+
+.align {
+    text-align: center;
+}
+
+.blog-t {
+    margin-left: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+.plain-text {
+    padding-left: 10px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.image-info img {
+    width: 281px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+.transfer-option {
+    margin-top: 5px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.content {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    width: 281px;
+    height: 310px;
+}
+
+.icon {
+    gap: 2px;
+    padding: 10px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.chat-icon {
+    margin-left: 50px;
+}
+
+.block-content {
+    justify-content: center;
+}
+
+.image-flex {
+    display: flex;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+.footer-section {
+    margin-top: 90px;
+    height: 400px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.horizontal-line {
+    color: darkslategrey;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 220px;
+    padding-right: 220px;
+    font-size: 25px;
+}
+
+.footer-text {
+    padding-top: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.foothov :hover {
+    color: whitesmoke;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    height: 50px;
+}
+
+.content-border {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    width: 281px;
+    height: 200px;
+}
+
+.germany img {
+    width: 93px;
+    height: 56px;
+    padding-left: 23px;
+    margin-right: 15px;
+}
+
+.france img {
+    width: 93.04px;
+    height: 56.18px;
+    margin-left: 15px;
+}
+
+.notes {
+    text-align: center;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .blog-grid .background {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container {
+        background-color: darkslategrey;
+    }
+
+}
